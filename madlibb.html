@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>About Me</h1>
+<p>Let's get started</p>
+
+<div id="result"></div>
+
+<script>
+    const your_name = prompt("Your Name: ");
+    const number1 = parseInt(prompt("Number: "));
+    const noun1 = prompt("Noun: ");
+    const adjective1 = prompt("Adjective: ");
+    const where = prompt("Where: ");
+    const person = prompt("Person: ");
+    const color = prompt("Color: ");
+    const animal = prompt("Animal: ");
+    const noun2 = prompt("Noun: ");
+    const number2 = parseInt(prompt("Number: "));
+    const verb = prompt("Verb: ");
+    const place = prompt("Country, city wherever place: ");
+    const adjective2 = prompt("Adjective: ");
+    const noun3 = prompt("Noun: ");
+
+    const resultElement = document.getElementById("result");
+    resultElement.innerHTML = `My name is ${your_name}. I am ${number1} years old. I want to admit that I have ${noun1} and I love it. By the way, I would like to share one of my memories and I think this is really ${adjective1}. One day, I went to the ${where} at 2:00 AM and I saw ${person} here, and when that person saw me, said that you are my ${color} ${animal}. I was shocked; then we talked about ${noun2} for ${number2} hours. Finally, I came back home. Besides, another fact about me is <I love to ${verb}>, but no one knows this because I don't say it to anyone. To go to ${place} is my dream. That is why I will buy ${adjective2} ${noun3}. That's all.`;
+</script>
+
+</body>
+</html>
