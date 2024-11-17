@@ -16,4 +16,4 @@ This project is a simple "Madlib game" written in Python. The main goal was to h
 - Python 3.x must be installed.
 
 🚀 How to Use?
-1. Clone the repository: ```bash git clone https://github.com/your_name/madlib-game.git cd madlib-game
+1. Clone the repository: ```bash git clone https://github.com/ilahebayramzade/madlib.git cd madlib
